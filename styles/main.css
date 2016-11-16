@@ -26,7 +26,7 @@ a {
       cursor: pointer; }
     .list .item .editing-label {
       margin-left: 5px;
-      font-family: "Varela Round";
+      font-family: "Varela Round"; 
       border-radius: 2px;
       border: 2px solid #a7b9c4;
       font-size: 16px;

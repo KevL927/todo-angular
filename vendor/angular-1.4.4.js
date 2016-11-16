@@ -6,7 +6,7 @@
 (function(window, document, undefined) {'use strict';
 
 /**
- * @description
+ * @description 
  *
  * This object provides a utility for producing rich Error messages within
  * Angular. It can be called as follows:
