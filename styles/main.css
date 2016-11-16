@@ -26,7 +26,7 @@ a {
       cursor: pointer; }
     .list .item .editing-label {
       margin-left: 5px;
-      font-family: "Varela Round";
+      font-family: "Varela Round"; 
       border-radius: 2px;
       border: 2px solid #a7b9c4;
       font-size: 16px;
@@ -40,7 +40,7 @@ a {
         margin-left: 10px; }
         .list .item .actions .delete:hover {
           color: #f28888; }
-    .list .item.editing .actions {
+    .list .item.editing-item .actions {
       margin-top: 17px; }
   .list .edited label:after {
     content: " edited";
