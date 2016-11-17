@@ -1,8 +1,13 @@
 angular.module('todoListApp', [])
   .controller('mainCtrl', function($scope, dataService) {
 
-    $scope.helloWorld = dataService.helloWorld;
+    $scope.addTodo = function () {
+      var todo = {name: "New entry"}
+      $scope.todos.push(todo);
+    };
 
+    $scope.helloWorld = dataService.helloWorld;
+    
     dataService.getTodos(function(response) {
       console.log(response);
       $scope.todos = response.data;
@@ -21,11 +26,9 @@ angular.module('todoListApp', [])
     };
 
     this.deleteTodo = function(todo) {
-      // other logic
     };
 
     this.saveTodos = function(todo) {
-      // other logic
     };
 
   });

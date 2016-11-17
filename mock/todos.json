@@ -1,8 +1,8 @@
 [
-  {"name": "clean the house"},
-  {"name": "water the dog"},
-  {"name": "feed the lawn"},
-  {"name": "pay dem bills"},
-  {"name": "run"},
-  {"name": "swim"}
+  {"name": "turn off light"},
+  {"name": "go for a walk"},
+  {"name": "call Emily"},
+  {"name": "pay phone bill"},
+  {"name": "finish project"},
+  {"name": "plan trip"}
 ]
